@@ -1,0 +1,28 @@
+.name-card-link{
+
+    color: white;
+    background-color: rgb(32, 25, 102);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    min-width: 100px;
+    max-height: 34px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(53, 48, 107);
+    
+   transition: background 0.35s;
+}
+
+.name-card-link:hover{
+    background-color: rgb(17, 9, 65);
+    box-shadow: 0 0 5px rgb(87, 80, 167);
+}
+
+.name-card{
+    margin: 0;
+    font-weight: 100;
+
+}

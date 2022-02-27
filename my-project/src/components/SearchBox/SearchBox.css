@@ -1,0 +1,33 @@
+.search-box{
+    
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+     
+}
+
+.search-key{
+
+    padding: 8px,15px;
+    font-size: 15px;
+    width: 350px;
+    height: 40px;
+    border-width: 0;
+    background-color: rgb(92, 76, 151);
+    color: aliceblue;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgb(247, 244, 243);
+    
+    
+}
+
+.search-key::placeholder{
+
+    color: aliceblue;
+   text-align:unset;
+   padding-left: 10px;
+}
+.search-key:focus{
+
+    outline: none;
+}
